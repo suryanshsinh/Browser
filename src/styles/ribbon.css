@@ -1,0 +1,33 @@
+#tabRibbon {
+    -fx-background-color: #20272b;
+    -fx-padding: 5px;
+    -fx-alignment: center-left;
+}
+
+#tabRibbon Button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-background-insets: 0px 5px;
+	-fx-min-height: 30px;
+	-fx-min-width: 30px;
+}
+
+#tabRibbon Button:hover  {
+    -fx-background-color: #191c21;
+    -fx-border-radius: 5px;
+}
+
+#tabRibbon Button ImageView {
+}
+
+#urlBar {
+    -fx-background-color: #44475a;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-prompt-text-fill: gray;
+}
+
+#urlBar:focused {
+    -fx-border-color: #6272a4;
+}

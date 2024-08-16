@@ -1,0 +1,79 @@
+.root {
+	-fx-background-color: #0d0e15;
+}
+
+.tab-pane {
+    -fx-background: #0d0e15;
+    -fx-border-width: 0px;
+}
+
+.tab-pane .tab-header-area {
+	-fx-padding: 5px 4px 4px;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+	-fx-background-color: #0d0e15;
+}
+
+.tab {
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-min-height: 35px;
+    -fx-max-height: 35px;
+    -fx-pref-height: 35px;
+    -fx-min-width: 100px;
+    -fx-max-width: 200px;
+    -fx-pref-width: 200px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-text-base-color: green;
+}
+
+.tab .tab-label {
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-border-width: 0 1px 0 0;
+	-fx-pref-width: 190px;
+    -fx-text-fill: #bbb;
+    -fx-border-color: #999;
+}
+.tab:hover .tab-label, .tab:selected .tab-label {
+	-fx-pref-width: 160px;
+	-fx-border-style: none none none none;
+    -fx-border-width: 0 0 0 0;
+    -fx-text-fill: #fff;
+}
+
+.tab-close-button {
+	-fx-background-color: white;
+	-fx-opacity: 0;
+}
+.tab-close-button:hover {
+	-fx-background-color: #aaa;
+}
+.tab:selected .tab-close-button, .tab:hover .tab-close-button {
+	-fx-opacity: 1;
+}
+.tab:hover {
+    -fx-background-color: #1f2528;
+}
+.tab:selected {
+    -fx-background-color: #31383d;
+}
+
+.add {
+    -fx-min-width: 35px;
+    -fx-max-width: 35px;
+    -fx-pref-width: 35px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-insets: 4px;
+    -fx-padding: -10px 0 0 10px;
+}
+.add .tab-label {
+	-fx-font-size: 20px;
+	-fx-padding: -1px 0 0 0;
+}

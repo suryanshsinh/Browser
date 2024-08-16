@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.authentication.AccountController">
+   <children>
+      <VBox layoutX="62.0" layoutY="80.0" prefHeight="239.0" prefWidth="274.0">
+         <children>
+            <Label fx:id="nameLabel" text="Label" />
+            <Label fx:id="emailLabel" text="Label" />
+            <Button mnemonicParsing="false" onAction="#deleteAccount" text="Delete Account" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
